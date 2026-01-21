@@ -1,0 +1,195 @@
+/* -------------------Small  Device---------- */
+@media  (max-width:767.98px){ 
+/* navbar-------------------- */
+#navbar {
+  padding: 20px 0;
+}
+#navbar .logo img{
+    max-width: 137px;
+    padding-left: 20px;
+}
+.hambar-icon{
+    padding-right: 20px;
+ }
+.manu,
+.subscrive-btn{
+    display: none;
+} 
+/* banner section start */
+#banner {
+ padding-bottom: 70px;
+}
+#banner .banner-img img {
+    max-width: 90%;   
+  }
+.banner .new-add h5 {
+  font-size: 20px;
+  top: 21px;
+  right: 24px;
+}
+.banner h1 {
+  font-size: 49px;
+  padding: 30px 0 8px 0;
+}
+.banner p {
+text-align: center;
+padding: 0 20px 24px 20px;
+}
+.banner-img .microphone-img {
+  position: absolute;
+  top: 81px;
+  left: 108px;
+}
+/* banner section end------------------- */
+
+/* about start------------ */
+#about .head-tittle {
+  font-size: 40px;
+}
+#about .about p {
+  padding: 0px 20px;
+}
+#about .about {
+  padding-bottom:40px;
+}
+#about .about .join {
+  padding-top: 20px;
+  padding-left:35px ;
+  padding-right:35px ;
+}
+#about .experience ul {
+  width: 95%;
+ gap: 30px;
+ flex-wrap: wrap;
+}
+#about .experience ul li{
+    width: 45%;
+}
+#about .experience ul li h2{
+  font-size: 40px;
+}
+#about .experience {
+  padding: 50px 0 30px 0;
+}
+#about .experience ul p {
+  font-size: 13px;
+}
+#about .head-tittle {
+  font-size: 36px;
+}
+
+/* about END------------ */
+
+#teachWeab .teach-card .card:first-child,
+#teachWeab .teach-card .card{
+  padding: 24px;
+}
+#teachWeab {
+  padding: 21px 0;
+}
+#teachWeab  .head-tittle {
+  font-size: 30px;
+}
+#teachWeab .teach-card {
+  gap: 0px;
+}
+#teachWeab .teach-card .card{
+  margin-bottom: 20px  ;
+  width: 90%;
+  margin: 0 20px 16px 20px;
+}
+
+/* ------------ featured episode ----- */
+#episode .head-tittle {
+  font-size: 36px;
+}
+#episode .episode-box{
+  width: 100%;
+}
+#episode .episode {
+  margin: 0 20px 16px 20px;
+}
+#episode .episode-box h4 {
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+#episode .episode-box p {
+  padding-bottom: 8px;
+}
+#episode .episode-box .episode-content {
+  padding: 16px;
+}
+
+/* ------ host----- */
+#episode .host-box {
+flex-direction: column;
+padding: 24px;
+}
+#episode .host-box .info{
+   max-width:100%;
+}
+#episode .host-box .man-img{
+   max-width:100%;
+}
+#episode .host-box .info{
+  text-align: center;
+}
+#episode .host-box .info h4{
+  font-size: 24px;
+  padding-bottom: 16px;
+}
+#episode .host-box  ul{
+  justify-content: center;
+  gap: 10px;
+}
+#episode .host-contact {
+  margin: 60px 0;
+}
+#episode .head-tittle {
+  padding-bottom: 24px;
+}
+/* ------------ featured episode ----- */
+
+/* footer-------------------- */
+.footer {
+  padding:40px 20px;
+}
+.footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    padding: 32px 32px; 
+}
+.footer .footer-copyright {
+  color: #fff;
+  font-size: 14px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* -------------------Medium Device---------- */
+@media (min-width:768px) and (max-width:991.98px)  { 
+    /* nav section-------------- */
+#navbar .logo img{
+    max-width: 180px;
+}
+}
