@@ -95,3 +95,144 @@ max-width: 219px;
 /* --------------------- NAVBAR SECTION END--------------- */
 
 
+/* -------------- BANNER SECTION START-- */
+#banner{
+   background-image: url(../assets/hero-bg.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 101px 0;
+}
+.banner{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.banner-img{
+   position: relative;
+}
+.banner-img  .microphone-img {
+   position: absolute;
+   top: 90px;
+   left: 120px;
+}
+.banner .new-add h5{
+   color: #1A0B2E;
+   font-size:18px ;
+   font-weight:600 ;
+   background-color: #00FF88;
+   padding: 8px 16px;
+   display: inline-block;
+   border-radius: 20px;
+   position: absolute;
+   top: 20px;
+   right: 10px;
+}
+.banner h1{
+   color:#fff ;
+   font-size:60px ;
+   font-weight:800 ;
+   padding: 40px 0 8px 0;
+}
+.banner p{
+   color:#fff ;
+   font-size:16px ;
+   font-weight:400 ;
+   padding-bottom: 24px;
+}
+.banner .contact-btn .primary-btn{
+   margin-right: 8px;
+
+}
+.banner .contact-btn .primary-btn i{
+   padding-right: 11px;
+}
+.banner .contact-btn .secendry-btn i{
+   padding-right: 11px;
+}
+
+/* -------------- BANNER SECTION END  -- */
+
+
+/* ------------- about start------- */
+#about{
+   background-color: #1A0B2E;
+}
+#about .about{
+   padding-bottom: 80px;
+    border-bottom: 1px solid #412567;
+
+}
+#about .about .head-tittle{
+   padding-bottom: 16px;
+}
+#about .about p{
+text-align: center;
+color: #fff;
+font-weight:400 ;
+font-size: 16px;
+padding: 0 180px;
+}
+#about .about  .join{
+   text-align: center;
+   padding-top: 60px;
+   text-align: center;
+}
+#about .experience{
+   padding: 80px 0 120px 0;
+}
+#about .experience ul{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+}
+#about .experience ul li{
+   color: #00FF88;
+   font-size: 48px;
+   font-weight: 800;
+}
+#about .experience ul p{
+   color: #fff;
+   font-size: 16px;
+   font-weight: 400;
+   text-transform: uppercase;
+}
+/* ------------- about end------- */
+
+
+/* --------- TEACH WEAB ------------- */
+#teachWeab {
+   padding: 120px 0;
+}
+#teachWeab .head-tittle{
+   padding-bottom: 40px;
+}
+#teachWeab .teach-card{
+
+   gap: 30px;
+}
+#teachWeab .teach-card .card{
+background-color: #351165;
+border-radius: 15px;
+padding: 40px;
+}
+#teachWeab .teach-card .card:first-child{
+   padding: 107px 40px;
+}
+/* #teachWeab .teach-card .card img{
+   padding: ;
+} */
+#teachWeab .teach-card .card h4{
+   color:#fff ;
+   font-size:24px ;
+   font-weight: 800;
+   padding: 16px 0;
+}
+#teachWeab .teach-card .card p{
+   color:#fff ;
+   font-size:16px ;
+   font-weight: 400;
+}
+/* --------- TEACH WEAB ------------- */
+
